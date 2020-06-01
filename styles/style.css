@@ -1,0 +1,266 @@
+    html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em
+    0}figcaption,figure,main{display:block}figure{margin:1em
+    40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline
+    dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html
+    [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px
+    dotted ButtonText}fieldset{padding:.35em .75em
+    .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+    .clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+    * img{
+        max-width:100%;
+        height: auto;
+    }
+
+    html{
+        font-size: 62.5%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing:
+        border-box; box-sizing: border-box;
+    }
+
+    *, *:before, *:after{
+        box-sizing: inherit;
+    }
+    
+    /* 
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Special Elite', cursive; */
+
+    body{
+        font-family: 'Special Elite', cursive;
+        font-size: 20px;
+    }
+
+    .wrapper{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    .visuallyhidden:not(:focus):not(:active) {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+
+    .thug-kitchen-social{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .thug-kitchen-social ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    .thug-kitchen-social li a{
+        color: #fc8228;
+        font-size: 30px;
+    }
+
+    .thug-kitchen-social li a:hover{
+        color: #000;
+    }
+
+    h1, p{
+        text-align: center;
+    }
+
+    h1, .thug-kitchen{
+        align-items: center;
+        width: 50%;
+        color: #fc8228;
+    }
+
+    h1, .thug-kitchen, h2{
+        font-family: 'Fjalla One', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        /* padding: 2%; */
+        margin: 0;
+    }
+
+    h2{
+        font-size: 30px;
+        width: 100%;
+        margin: 2%;
+    }
+
+    .thug-kitchen{
+        justify-content: center;
+    }
+
+    .logo{
+        width: 90%;
+    }
+
+    .intro{ 
+        width: 100%;
+    }
+
+    p.servings, span.measurement{
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    header, .thug-kitchen, li.ingredients, .recipe, .recipe-list ul{
+        display: flex;
+        flex-flow: row wrap;
+            align-items: center;
+    }
+
+    .recipe{
+        width: 100%;
+        flex-flow: wrap;
+        align-items: center;
+        background: #fc8228;
+    }
+
+    .recipe-list{
+        width: calc(55% - 1%);
+        background: #fc8228;
+        font-size: 18px;
+    }
+
+    .recipe-list, .display-photo{
+        margin: 2% 0;
+    }
+    
+    ul li{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .ingredients{
+        width: 60%;
+    }
+
+    span.measurement{
+        width: 35%;
+        text-align: right;
+        margin-right: 2%;
+    }
+
+    .display-photo{
+        width: calc(45% - 1%);
+    }
+
+    .display-photo.bottom{
+        width: 100%;
+    }
+
+    .display-photo img{
+        display: block;
+    }
+
+    .recipe-list ul{
+        margin: 0;
+    }
+
+    .instructions{
+        width: 100%;
+        background: #FFF;
+    }
+
+    /* img{
+        max-width: 100%;
+        height: auto;
+    } */
+
+    .instructions p{
+        text-align: left;
+    }
+
+    /* * * * BORROWED CODE FROM https://www.456bereastreet.com/archive/201105/styling_ordered_list_numbers/ * * * */
+
+    ol{
+        counter-reset:li; /* Initiate a counter */
+        margin-left:0; /* Remove the default left margin */
+        padding-left:0; /* Remove the default left padding */
+    }
+
+    ol > li {
+        position:relative; /* Create a positioning context */
+        margin:0 0 6px 2em; /* Give each list item a left margin to make room for the numbers */
+        padding:4px 8px; /* Add some spacing around the content */
+        list-style:none; /* Disable the normal item numbering */
+        border-top:2px solid #666;
+        background:#f6f6f6;
+    }
+
+    ol > li:before {
+        content:counter(li); /* Use the counter as content */
+        counter-increment:li; /* Increment the counter by 1 */
+        /* Position and style the number */
+        position:absolute;
+        top:-2px;
+        left:-2em;
+        -moz-box-sizing:border-box;
+        -webkit-box-sizing:border-box;
+        box-sizing:border-box;
+        width:2em;
+        /* Some space between the number and the content in browsers that support
+        generated content but not positioning it */
+        margin-right:8px;
+        padding:4px;
+        border-top:2px solid #666;
+        color:#fff;
+        background:#666;
+        font-weight:bold;
+        font-family:"Helvetica Neue", Arial, sans-serif;
+        text-align:center;
+    }
+
+    li ol,
+    li ul {margin-top:6px;}
+    ol ol li:last-child {margin-bottom:0;}
+
+    div.instructions ol{
+        margin: 0;
+    }
+
+    /* FOR MOBILE */
+    @media screen and (max-width: 800px) {
+
+        .wrapper{
+            max-width: 700px;
+        }
+
+        header{
+            flex-flow: column;
+        }
+
+        h1, .thug-kitchen{
+            width: calc(100% - 2%);
+        }
+
+        h1{
+            background: #fc8228;
+            color: #FFF;
+            margin: 0;
+            padding: 2%;
+        }
+
+        .recipe-list{
+            width: 100%;
+            width: calc(100% - 2%);
+            padding: 2%;
+        }
+
+        .display-photo{
+            width: 100%;
+        }
+    }
